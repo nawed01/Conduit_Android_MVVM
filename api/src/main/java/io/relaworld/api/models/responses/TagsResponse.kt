@@ -1,4 +1,4 @@
-package io.relaworld.api.models
+package io.relaworld.api.models.responses
 
 
 import com.squareup.moshi.Json

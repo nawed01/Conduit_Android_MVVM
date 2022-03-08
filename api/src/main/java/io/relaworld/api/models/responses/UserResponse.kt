@@ -1,8 +1,9 @@
-package io.relaworld.api.models
+package io.relaworld.api.models.responses
 
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
+import io.relaworld.api.models.entities.User
 
 @JsonClass(generateAdapter = true)
 data class UserResponse(

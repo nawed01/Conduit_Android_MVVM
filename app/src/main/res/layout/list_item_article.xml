@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageViewAuthor"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageViewAuthor"
+        android:layout_toEndOf="@+id/imageViewAuthor"
+        android:fontFamily="sans-serif"
+        android:padding="2dp"
+        android:layout_marginStart="5dp"
+        android:text="Author name"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewName"
+        android:layout_toEndOf="@+id/imageViewAuthor"
+        android:layout_marginStart="5dp"
+        android:fontFamily="sans-serif-light"
+        android:padding="2dp"
+        android:text="February 23,2022"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewAuthor"
+        android:layout_alignStart="@+id/imageViewAuthor"
+        android:padding="2dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:text="A great article to read"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textViewBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_alignStart="@+id/imageViewAuthor"
+        android:padding="2dp"
+        android:fontFamily="sans-serif"
+        android:text="A great article to read wjkwfhsdhksfk ksjfksfklsflksfjljslfjslfjslsjflksjflsjfsljflsfjls"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        />
+
+</RelativeLayout>
